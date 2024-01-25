@@ -1,0 +1,73 @@
+.sharestory-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container.sharestory {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+h2.card-title.sharestory {
+  font-weight: bold;
+}
+
+.form-control.sharestory::placeholder {
+  color: #b1afaf;
+}
+
+.red-text {
+  color: red;
+}
+
+.description {
+  color: #b1afaf;
+  font-size: 14px;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-control.sharestory {
+  background-color: #f8f9fa;
+  border: 1px solid gray;
+}
+.form-group.sharestory .form-control.sharestory {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group.sharestory .form-control.sharestory:focus {
+  border-color: #754ffe;
+  box-shadow: 0 0 0 0.2rem rgba(117, 79, 254, 0.25);
+}
+
+.ckeditor-container.sharestory .ck.ck-content:focus {
+  border-color: #754ffe;
+  box-shadow: 0 0 0 0.2rem rgba(117, 79, 254, 0.25);
+}
+
+.ckeditor-container.sharestory .ck.ck-content {
+  height: 300px;
+}
+
+.btn-primary.sharestory:disabled {
+  background-color: #d6d6d6;
+}
+
+.hr-container.sharestory {
+  margin: 20px -15px 0 -15px;
+}
+
+.sharestory-separator {
+  border: 0;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
